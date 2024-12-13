@@ -6,9 +6,12 @@ import { writeFileSync } from 'fs';
 async function generateAndVerifyProof() {
     const backend = new BarretenbergBackend(main, { threads: 8 });
     const noir = new Noir(main);
-    const input = { x: 1, y: 2 };
-    const { witness } = await noir.execute(input);
-    const { proof, publicInputs } = await backend.generateProof(witness);
+
+    // define input
+
+    // create witness
+
+    // generate proof
 
     const proofHex = '0x' + Array.from(proof)
         .map(byte => byte.toString(16).padStart(2, '0'))
@@ -30,9 +33,9 @@ async function generateAndVerifyProof() {
     writeFileSync('proof.json', JSON.stringify(proofData, null, 2));
 
     console.log("Proof saved to proof.json as hex string");
-    
-    const verified = await backend.verifyProof({ proof: proof, publicInputs: publicInputs });
-    console.log("Verified:", verified);
+
+    // verify proof
+
 }
 
 generateAndVerifyProof().catch(console.error);

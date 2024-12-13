@@ -1,6 +1,0 @@
-passphrase = "0x76616d6f206d65737369"
-passphraseHash = "0x14c997b9c9300425780034a5f9794492395fd4ac2df88ec203053bf6c129c528"
-
-[member]
-age = "26"
-name = "cat"

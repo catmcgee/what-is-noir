@@ -1,3 +1,7 @@
+[English](#step-4-a-simple-noirjs-example) | [Español](#nivel-4-un-ejemplo-simple-de-noirjs)
+
+---
+
 # Step 4: A simple NoirJS example
 
 A basic example function of proving and verifying using NoirJS. Find noirJS docs [here](https://noir-lang.org/docs/tutorials/noirjs_app).
@@ -47,7 +51,9 @@ This will run the `index.js` file. It will run indefinitely so you'll need to `C
 - If you change the circuit, you will need to update the inputs accordingly. 
 - The proof and public inputs will be saved in a file called `proof.json`. You can paste these into other verification methods, such as Solidity that is covered in [step5](../step5/README.md).
 
-# Paso 4: Un ejemplo simple de NoirJS
+---
+
+# Nivel 4: Un ejemplo simple de NoirJS
 
 Un ejemplo básico de una función para proving y verifying usando NoirJS. La docs de NoirJS están [aquí](https://noir-lang.org/docs/tutorials/noirjs_app).
 
